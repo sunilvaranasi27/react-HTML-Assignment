@@ -25,11 +25,7 @@ class App extends Component {
                                 <a href="Register.html">Register</a>
                             </div>
                         </li>
-                        <li>
-                            <div align="justify">
-                                <a href="Display Records.html">Display record </a>
-                            </div>
-                        </li>
+
                     </ul>
                 </th>
             </tr>
