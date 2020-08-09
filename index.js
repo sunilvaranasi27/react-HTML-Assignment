@@ -14,28 +14,31 @@ class App extends Component {
   render() {
     return (
       <div>
-        <form method="" action="">
-        <table border="1" align="center" width="400" bgcolor="#CCCCCC">
-            <caption>Registration form</caption>
+       <form method="" action="">
+        <table border="1" align="center" height="100" width="500" bgcolor="#CCD4DD">
             <tr>
-                <th>Photo </th>
-                <td><textarea rows="8" cols="15"></textarea></td>
+                <th> Welcome to Registration Page! Please click on the below links
+                    <ul>
+
+                        <li>
+                            <div align="justify">
+                                <a href="Register.html">Register</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div align="justify">
+                                <a href="Display Records.html">Display record </a>
+                            </div>
+                        </li>
+                    </ul>
+                </th>
             </tr>
-            <tr>
-                <th>Name : </th>
-                <td><input type="text" name="fn" id="fn1" maxlength="60" /></td>
-            </tr>
-             <tr>
-                <th>DOB : </th>
-                <td><input type="date" /></td>
-            </tr>
-            
+
         </table>
-        
     </form>
             
       </div>
-    );
+    )
   }
 }
 
